@@ -1,47 +1,60 @@
-.titre1 {
-    color: red;
-}
-
-.titre2 {
-    color: blue;
-}
-
-.titre3 {
-    color: yellow;
-}
-
-.titre4 {
-    color: beige;
-}
-
-.titre5 {
-    font-size: 20px;
-}
-
-.titre6 {
-    font-size: 2rem;
-}
-
-.paragraph1 {
-    font-weight: bold;
-}
-
-.paragraph2 {
-    font-weight: 100;
-}
-
-.span1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.span2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.button1 {
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid gray;
     border-radius: 10px;
+    padding: 2.5em;
+    background-color: white;
 }
 
-.button2 {
-border-radius: 10%;
+#content h1 {
+    margin-top: 0;
+}
+
+#inputText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#checkboxx {
+    display: flex;
+    gap: 10px;
+}
+
+#radioo {
+    display: flex;
+    gap: 7px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"] {
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 1em;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"] {
+    background-color: #f9f9f9;
+    color: #333;
+    transition: all 0.3s ease;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
 }
